@@ -1,0 +1,286 @@
+h1{
+  /*color:#ffffff;*/
+  margin: 0;
+  padding-top: 100px;
+  font-size: 4em;
+ font-family: 'Playfair Display', serif;
+color: #f8dc88;}
+
+body{
+  margin: 0;
+  position:relative;
+  display: inline-block;
+}
+
+.div{
+  height: 1200px;
+  width: 1520px;
+  background-color:#323232;
+  margin: 0;
+}
+
+/*a:hover{
+  color: #c81912;
+}*/
+
+.a{
+  color: #ffffff;
+  font-size: 2em;
+  position: absolute;
+  top: 320px;
+  text-decoration: none;
+  left:120px;
+  display: inline-block;
+}
+.a::after{
+  content:'';
+  display: grid;
+  width: 0;
+  height: 3px;
+  background:black;
+  transition: width .5s;
+}
+.a:hover::after{
+  width:100%;
+}
+.b{
+  color: #ffffff;
+  font-size: 2em;
+  position: absolute;
+  top: 300px;
+  text-decoration: none;
+  left:1000px;
+  display: inline-block;
+}
+.b::after{
+  content:'';
+  display: grid;
+  width: 0;
+  height: 3px;
+  background:#ffd082;
+  transition: width .5s;
+}
+.b:hover::after{
+  width:100%;
+}
+.c{
+  color: #ffffff;
+  font-size: 2em;
+  position: absolute;
+  top: 300px;
+  text-decoration: none;
+  left:750px;
+  display: inline-block;
+}
+.c::after{
+  content:'';
+  display: grid;
+  width: 0;
+  height: 3px;
+  background:#ffd082;
+  transition: width .5s;
+}
+.c:hover::after{
+  width:100%;
+}
+.d{
+  color: #ffffff;
+  font-size: 2em;
+  position: absolute;
+  top: 300px;
+  text-decoration: none;
+  left:1200px;
+  display: inline-block;
+}
+.d::after{
+  content:'';
+  display: grid;
+  width: 0;
+  height: 3px;
+  background:#ffd082;
+  transition: width .5s;
+}
+.d:hover::after{
+  width:100%;
+}
+.e{
+  position: absolute;
+  top: 400px;
+  right: 200px;
+}
+.f{
+  position: absolute;
+  top: 424px;
+  right: 220px;
+}
+ .g{
+  left: 260px;
+    top: 380px;
+  font-family: 'Playfair Display', serif;
+
+  color: #ffffff;
+  font-size: 2em;
+  position: absolute;
+  text-decoration: none;
+  display: inline-block;
+}
+.g::after{
+  content:'';
+  display: grid;
+  width: 0;
+  height: 3px;
+  background:#ffd082;
+  transition: width .5s;
+}
+.g:hover::after{
+  width:100%;
+}
+.h{
+  position: absolute;
+  display: inline-block;
+font-family: 'Open Sans', sans-serif;
+  top: 400px;
+  left: 120px;
+  font-size:2em;
+  color: #deff8b;
+  width: 30%;
+
+}
+
+.i{
+  color: #0fabbc;
+  left: 140px;
+  top: 347px;
+  position: absolute;
+  font-size: 2em;
+
+}
+.SKILLS{
+  height: 1580px;
+  width: 1520px;
+  background-color: #ffffff;
+
+}
+
+.j{
+  position: absolute;
+  top: 1500px;
+  left: 100px;
+  border-radius: 100%;
+  display: inline-block;
+}
+.k{
+
+  bottom:20px;
+  color: #0fabbc;
+}
+.l{
+  position: absolute;
+  top:1700px;
+left: 800px;
+font-family: 'Open Sans', sans-serif;
+width:40%;
+ font-size:2em;
+}
+.m{
+  width: 30%;
+  position: absolute;
+  top:2300px;
+  left: 200px;
+}
+.n{
+  position: absolute;
+  top:2350px;
+left: 800px;
+font-family: 'Open Sans', sans-serif;
+width:40%;
+ font-size:2em;
+}
+.o{
+  height: 250px;
+  width: 1520px;
+  background-color:white;
+}
+hr{
+    margin: 40px auto;
+  border-style: none ;
+  border-top-style: dotted;
+  border-width: 7px;
+  border-color: red;
+  width:5%;
+}
+h2{
+margin-top:40px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+  color: white;
+  font-size: 1em;
+  margin:40px auto;
+  /*box-shadow: 4px 16px 36px 9px #594644;*/
+  background-color:#c62d1f;
+  border-radius:31px;
+  border:4px solid #d02718;
+  display:inline-block;
+  cursor:pointer;
+   font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  padding:9px 26px;
+  text-decoration:none;
+  text-shadow:-1px -2px 0 #543836;
+}
+.btn::after{
+  content:'';
+  display: grid;
+  width: 0;
+  height: 3px;
+  background:black;
+  transition: width .5s;
+}
+.btn:hover::after{
+  width:80%;
+  background-color:#f24437;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer{
+  background-color: #ffb0cd;
+  position: absolute;
+
+  margin-bottom: 0;
+  margin-top: 0;
+  height: 120px;
+  width: 100%;
+}
+
+ .fb{
+   position: absolute;
+   left:650px;
+   top:20px;
+ }
+ .ins{
+   position: absolute;
+   left:700px;
+   top:20px;
+ }
+.lin{
+  position: absolute;
+  left:750px;
+  top:20px;
+}
+.twe{
+  position: absolute;
+  left:800px;
+  top:20px;
+}
+.p{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+   position: absolute;
+   top:60px;
+   left:670px;
+}
